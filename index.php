@@ -1,3 +1,4 @@
+
 <?php
 if(isset($_POST['submit'])) {
 	if(!empty($_POST['name']) && !empty($_POST['email']) && !empty($_POST['message'])) {
@@ -30,7 +31,6 @@ if(isset($_POST['submit'])) {
 	}
 }
 ?>
-
 
 <!DOCTYPE HTML>
 <!--
@@ -94,19 +94,28 @@ if(isset($_POST['submit'])) {
 
 			<!-- Intro -->
 				<div id="intro-wrapper" class="wrapper style1">
-					<div class="title">The Introduction</div>
+
+					<div class="title">MISSION</div>
 					<section id="intro" class="container">
-						<p class="style1">So in case you were wondering what this is all about ...</p>
-						<p class="style2">
-							Escape Velocity is a free responsive<br class="mobile-hide" />
-							site template by <a href="http://html5up.net" class="nobr">HTML5 UP</a>
-						</p>
-						<p class="style3">It's <strong>responsive</strong>, built on <strong>HTML5</strong> and <strong>CSS3</strong>, and released for
-						free under the <a href="http://html5up.net/license">Creative Commons Attribution 3.0 license</a>, so use it for any of
-						your personal or commercial projects &ndash; just be sure to credit us!</p>
+						<p class="style1">We believe in <strong>sustainable growth</strong> in an European economy where no one should be left behind. We act towards this by investing in the best solutions for <strong>job creation</strong> and access to work, from <strong>cradle to career.</strong></p>
+						<p class="style1">The 3 pillars of Degroof Petercam Foundation: </p>
+						<!--<p class="style2">-->
+							
 						<ul class="actions">
-							<li><a href="#" class="button style3 big">Proceed</a></li>
+							<li>
+								<a href="#" class="button style3 big">Jobs for sustainable Growth</a>
+
+								<ul class="actions">
+									<li><a href="#" class="button style3 big">Education (youth)</a></li>
+									<li><a href="#" class="button style3 big">Entrepreneurship</a></li>
+									<li><a href="#" class="button style3 big">Job accessibility</a></li>
+								</ul>
+							</li>
 						</ul>
+						<!--</p>-->
+					
+						
+
 					</section>
 				</div>
 
@@ -220,6 +229,7 @@ if(isset($_POST['submit'])) {
 
 			<!-- Footer -->
 				<div id="footer-wrapper" class="wrapper">
+
 					<div class="title">Contact</div>
 					<div id="footer" class="container">
 						<header class="style1">
@@ -258,6 +268,7 @@ if(isset($_POST['submit'])) {
 									</section>
 								</div>
 							</div>
+
 						</header>
 						<hr />
 						<div class="row 150%">
@@ -281,14 +292,16 @@ if(isset($_POST['submit'])) {
 											</div>
 											<div class="row">
 												<div class="12u">
-													<ul class="actions">
+
 														<li><input type="submit" name="submit" class="style1" value="Send" /></li>
 													</ul>
 												<?php if(isset($msgErreur)) { echo $msgErreur; }; ?>
+
 												</div>
 											</div>
 										</form>
 									</section>
+
 							</div>
 							<div class="6u 12u(mobile)">
 
@@ -300,8 +313,10 @@ if(isset($_POST['submit'])) {
 												<section>
 													<h3 class="icon fa-comment">Social</h3>
 													<p>
+
 														<a href="#">facebook.com</a><br />
 														<a href="#">linkedin.com</a><br />
+
 													</p>
 												</section>
 											</div>
@@ -311,10 +326,12 @@ if(isset($_POST['submit'])) {
 												<section>
 													<h3 class="icon fa-envelope">Email</h3>
 													<p>
+
 														<a href="#">foundation@degroofpetercam.com </a>
 													</p>
 												</section>
 											</div>
+
 
 									</section>
 
@@ -342,5 +359,7 @@ if(isset($_POST['submit'])) {
 			<script src="assets/js/main.js"></script>
 
 	</body>
+
 </html>
+
 
