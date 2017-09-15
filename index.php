@@ -22,8 +22,9 @@
 
 						<!-- Logo -->
 							<div id="logo">
-								<h1><a href="index.html">Escape Velocity</a></h1>
-								<p>A free responsive site template by HTML5 UP</p>
+								<h1><a href="index.html"><img src="images/degroof.png" class="logoDegroof"></a></h1>
+								<p class="subLogo"><strong class="white">Since 2008</strong>, we support and guide long-term & innovative projects with large-scale implementation potential.
+We also seek to promote engagement within Bank Degroof Petercam. </p>
 							</div>
 
 						<!-- Nav -->
