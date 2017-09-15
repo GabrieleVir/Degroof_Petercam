@@ -220,14 +220,44 @@ if(isset($_POST['submit'])) {
 
 			<!-- Footer -->
 				<div id="footer-wrapper" class="wrapper">
-					<div class="title">The Rest Of It</div>
+					<div class="title">Contact</div>
 					<div id="footer" class="container">
 						<header class="style1">
-							<h2>Ipsum sapien elementum portitor?</h2>
-							<p>
-								Sed turpis tortor, tincidunt sed ornare in metus porttitor mollis nunc in aliquet.<br />
-								Nam pharetra laoreet imperdiet volutpat etiam consequat feugiat.
-							</p>
+							<h2>The team</h2>
+							<div class="row 100%">
+								<div class="3u 12u(mobile)">
+									<section class="highlight">
+										<a href="#" class="image featured img_contact "><img  src="images/silvia.jpg" alt="" /></a>
+										<h3><a href="#">Nisl adipiscing sed lorem</a></h3>
+										<p>Eget mattis at, laoreet vel amet sed velit aliquam diam ante, dolor aliquet sit amet vulputate mattis amet laoreet lorem.</p>
+
+									</section>
+								</div>
+									<div class="3u 12u(mobile)">
+									<section class="highlight">
+										<a href="#" class="image featured img_contact"><img  src="images/patti.jpg" alt="" /></a>
+										<h3><a href="#">Nisl adipiscing sed lorem</a></h3>
+										<p>Eget mattis at, laoreet vel amet sed velit aliquam diam ante, dolor aliquet sit amet vulputate mattis amet laoreet lorem.</p>
+										
+									</section>
+								</div>
+								<div class="3u 12u(mobile)">
+									<section class="highlight">
+										<a href="#" class="image featured img_contact"><img  src="images/Alizée.png" alt="" height='224px'/></a>
+										<h3><a href="#">Nisl adipiscing sed lorem</a></h3>
+										<p>Eget mattis at, laoreet vel amet sed velit aliquam diam ante, dolor aliquet sit amet vulputate mattis amet laoreet lorem.</p>
+										
+									</section>
+								</div>
+								<div class="3u 12u(mobile)">
+									<section class="highlight">
+										<a href="#" class="image featured img_contact"><img  src="images/minke.jpg" alt="" /></a>
+										<h3><a href="#">Nisl adipiscing sed lorem</a></h3>
+										<p>Eget mattis at, laoreet vel amet sed velit aliquam diam ante, dolor aliquet sit amet vulputate mattis amet laoreet lorem.</p>
+										
+									</section>
+								</div>
+							</div>
 						</header>
 						<hr />
 						<div class="row 150%">
