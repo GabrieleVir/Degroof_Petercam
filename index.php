@@ -227,33 +227,33 @@ if(isset($_POST['submit'])) {
 							<div class="row 100%">
 								<div class="3u 12u(mobile)">
 									<section class="highlight">
-										<a href="#" class="image featured img_contact "><img  src="images/silvia.jpg" alt="" /></a>
-										<h3><a href="#">Nisl adipiscing sed lorem</a></h3>
-										<p>Eget mattis at, laoreet vel amet sed velit aliquam diam ante, dolor aliquet sit amet vulputate mattis amet laoreet lorem.</p>
+										<a href="#" class="image featured img_contact "><img  src="images/silvia.jpg" alt="" height='215px' /></a>
+										<h3><a href="#">Silvia Steisel</a></h3>
+										
 
 									</section>
 								</div>
 									<div class="3u 12u(mobile)">
 									<section class="highlight">
-										<a href="#" class="image featured img_contact"><img  src="images/patti.jpg" alt="" /></a>
-										<h3><a href="#">Nisl adipiscing sed lorem</a></h3>
-										<p>Eget mattis at, laoreet vel amet sed velit aliquam diam ante, dolor aliquet sit amet vulputate mattis amet laoreet lorem.</p>
+										<a href="#" class="image featured img_contact"><img  src="images/patti.jpg" alt="" height='215px' /></a>
+										<h3><a href="#">Patti Walraf</a></h3>
+										
 										
 									</section>
 								</div>
 								<div class="3u 12u(mobile)">
 									<section class="highlight">
-										<a href="#" class="image featured img_contact"><img  src="images/Alizée.png" alt="" height='224px'/></a>
-										<h3><a href="#">Nisl adipiscing sed lorem</a></h3>
-										<p>Eget mattis at, laoreet vel amet sed velit aliquam diam ante, dolor aliquet sit amet vulputate mattis amet laoreet lorem.</p>
+										<a href="#" class="image featured img_contact"><img  src="images/Alizée.png" alt="" height='215px'/></a>
+										<h3><a href="#">Alizée du Bus</a></h3>
+										
 										
 									</section>
 								</div>
 								<div class="3u 12u(mobile)">
 									<section class="highlight">
-										<a href="#" class="image featured img_contact"><img  src="images/minke.jpg" alt="" /></a>
-										<h3><a href="#">Nisl adipiscing sed lorem</a></h3>
-										<p>Eget mattis at, laoreet vel amet sed velit aliquam diam ante, dolor aliquet sit amet vulputate mattis amet laoreet lorem.</p>
+										<a href="#" class="image featured img_contact"><img  src="images/minke.jpg" alt="" height='215px'/></a>
+										<h3><a href="#">Minke de Smet</a></h3>
+										
 										
 									</section>
 								</div>
