@@ -76,8 +76,8 @@ if(isset($_POST['submit'])) {
 								<a href="#" class="button style3 big">Jobs for sustainable Growth</a>
 
 								<ul class="actions">
-									<li><a href="#" class="button style3 big">Education (youth)</a></li>
-									<li><a href="#" class="button style3 big">Entrepreneurship</a></li>
+									<li><a href="mission2.php#education" class="button style3 big">Education (youth)</a></li>
+									<li><a href="mission2.php#entreprise" class="button style3 big">Entrepreneurship</a></li>
 									<li><a href="#" class="button style3 big">Job accessibility</a></li>
 								</ul>
 							</li>
