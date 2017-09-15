@@ -1,3 +1,5 @@
+
+
 <!DOCTYPE HTML>
 <!--
 	Escape Velocity by HTML5 UP
@@ -218,37 +220,35 @@
 											<div class="row">
 												<div class="12u">
 													<ul class="actions">
-														<li><input type="submit" class="style1" value="Send" /></li>
+														<li><input type="submit" name="submit" class="style1" value="Send" /></li>
 														<li><input type="reset" class="style2" value="Reset" /></li>
 													</ul>
 												</div>
 											</div>
 										</form>
 									</section>
+<?php
+if(isset($_POST)) {
+	if(!empty($_POST['name']) && !empty($_POST['email']) && !empty($_POST['message'])) {
 
+	} else {
+		$msgErreur = 'Veuillez remplir tous les champs';
+	}
+}
+?>
 							</div>
 							<div class="6u 12u(mobile)">
 
 								<!-- Contact -->
 									<section class="feature-list small">
 										<div class="row">
-											<div class="6u 12u(mobile)">
-												<section>
-													<h3 class="icon fa-home">Mailing Address</h3>
-													<p>
-														Untitled Corporation<br />
-														1234 Somewhere Rd #987<br />
-														Nashville, TN 00000-0000
-													</p>
-												</section>
-											</div>
+
 											<div class="6u 12u(mobile)">
 												<section>
 													<h3 class="icon fa-comment">Social</h3>
 													<p>
-														<a href="#">@untitled-corp</a><br />
-														<a href="#">linkedin.com/untitled</a><br />
-														<a href="#">facebook.com/untitled</a>
+														<a href="#">facebook.com</a><br />
+														<a href="#">linkedin.com</a><br />
 													</p>
 												</section>
 											</div>
@@ -262,8 +262,7 @@
 													</p>
 												</section>
 											</div>
-											
-										</div>
+
 									</section>
 
 							</div>
@@ -291,3 +290,4 @@
 
 	</body>
 </html>
+
