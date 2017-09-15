@@ -1564,7 +1564,7 @@
 		.wrapper.style1 {
 			background: #33dba7 url("images/overlay.png");
 			color: #eee;
-			color: rgba(255, 255, 255, 0.75);
+			color: rgba(255, 255, 255, 1);
 		}
 
 			.wrapper.style1 .title {
