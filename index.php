@@ -108,43 +108,29 @@ if(isset($_POST['submit'])) {
 				</div>
 
 			<!-- Highlights -->
-				<div class="wrapper style3">
-					<div class="title">The Endorsements</div>
-					<div id="highlights" class="container">
-						<div class="row 150%">
-							<div class="4u 12u(mobile)">
-								<section class="highlight">
-									<a href="#" class="image featured"><img src="images/pic02.jpg" alt="" /></a>
-									<h3><a href="#">Aliquam diam consequat</a></h3>
-									<p>Eget mattis at, laoreet vel amet sed velit aliquam diam ante, dolor aliquet sit amet vulputate mattis amet laoreet lorem.</p>
-									<ul class="actions">
-										<li><a href="#" class="button style1">Learn More</a></li>
-									</ul>
-								</section>
-							</div>
-							<div class="4u 12u(mobile)">
-								<section class="highlight">
-									<a href="#" class="image featured"><img src="images/pic03.jpg" alt="" /></a>
-									<h3><a href="#">Nisl adipiscing sed lorem</a></h3>
-									<p>Eget mattis at, laoreet vel amet sed velit aliquam diam ante, dolor aliquet sit amet vulputate mattis amet laoreet lorem.</p>
-									<ul class="actions">
-										<li><a href="#" class="button style1">Learn More</a></li>
-									</ul>
-								</section>
-							</div>
-							<div class="4u 12u(mobile)">
-								<section class="highlight">
-									<a href="#" class="image featured"><img src="images/pic04.jpg" alt="" /></a>
-									<h3><a href="#">Mattis tempus lorem</a></h3>
-									<p>Eget mattis at, laoreet vel amet sed velit aliquam diam ante, dolor aliquet sit amet vulputate mattis amet laoreet lorem.</p>
-									<ul class="actions">
-										<li><a href="#" class="button style1">Learn More</a></li>
-									</ul>
-								</section>
-							</div>
-						</div>
+					<!-- Main -->
+				<div class="wrapper style3" id="Skills">
+					<div class="title">SKILLS-BASED SPONSORSHIP</div>
+					<div id="main" class="container">
+
+						<!-- Image -->
+						<!-- 	<a href="#" class="image featured">
+								<img src="images/pic01.jpg" alt="" />
+							</a>
+ -->
+						<!-- Features -->
+							<section id="features">
+								<p><strong>Every project that is supported by the Foundation is supervised by a Bank Degroof Petercam employee.</strong></p>
+								<p><strong>OBJECTIVE: In addition to providing financial support, the Foundation aims to be a genuine, valued partner to projects receiving support.</strong></p>
+								<h2>SOLIDARITY DAYS</h2>
+								<p>Every year the Foundation organizes Solidarity Days. Bank Degroof Petercam uses this event to offer its employees the chance to aid different associations for an entire day.</p>
+
+								<div class="video"><iframe width="560" height="315" src="https://www.youtube.com/embed/0v5tqUp4XGk" frameborder="0" allowfullscreen></iframe></div>
+							</section>
+
 					</div>
 				</div>
+
 
 			<!-- Footer -->
 				<div id="footer-wrapper" class="wrapper">
