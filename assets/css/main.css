@@ -2688,3 +2688,15 @@
 						}
 
 	}
+
+	.logoDegroof {
+		width: 200px;
+	}
+
+	.subLogo {
+		padding: 30px;
+	}
+
+	.white {
+		color: #fff;
+	}

@@ -1,5 +1,4 @@
-<<<<<<< HEAD
-=======
+
 <?php
 if(isset($_POST['submit'])) {
 	if(!empty($_POST['name']) && !empty($_POST['email']) && !empty($_POST['message'])) {
@@ -33,8 +32,6 @@ if(isset($_POST['submit'])) {
 }
 ?>
 
-
->>>>>>> Gab-Dev
 <!DOCTYPE HTML>
 <!--
 	Escape Velocity by HTML5 UP
@@ -59,8 +56,9 @@ if(isset($_POST['submit'])) {
 
 						<!-- Logo -->
 							<div id="logo">
-								<h1><a href="index.html">Escape Velocity</a></h1>
-								<p>A free responsive site template by HTML5 UP</p>
+								<h1><a href="index.html"><img src="images/degroof.png" class="logoDegroof"></a></h1>
+								<p class="subLogo"><strong class="white">Since 2008</strong>, we support and guide long-term & innovative projects with large-scale implementation potential.
+We also seek to promote engagement within Bank Degroof Petercam. </p>
 							</div>
 
 						<!-- Nav -->
@@ -117,6 +115,7 @@ if(isset($_POST['submit'])) {
 						</ul>
 						<!--</p>-->
 					
+
 
 					</section>
 				</div>
@@ -294,7 +293,9 @@ if(isset($_POST['submit'])) {
 											</div>
 											<div class="row">
 												<div class="12u">
+
 													<ul class="actions">
+
 
 														<li><input type="submit" name="submit" class="style1" value="Send" /></li>
 													</ul>
@@ -320,6 +321,9 @@ if(isset($_POST['submit'])) {
 
 														<a href="#">facebook.com</a><br />
 														<a href="#">linkedin.com</a><br />
+
+
+
 													</p>
 												</section>
 											</div>
@@ -329,10 +333,12 @@ if(isset($_POST['submit'])) {
 												<section>
 													<h3 class="icon fa-envelope">Email</h3>
 													<p>
+
 														<a href="#">foundation@degroofpetercam.com </a>
 													</p>
 												</section>
 											</div>
+
 
 									</section>
 
@@ -361,4 +367,5 @@ if(isset($_POST['submit'])) {
 
 	</body>
 </html>
+
 
