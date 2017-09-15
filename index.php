@@ -1,3 +1,35 @@
+<?php
+if(isset($_POST['submit'])) {
+	if(!empty($_POST['name']) && !empty($_POST['email']) && !empty($_POST['message'])) {
+
+		$nameSani = filter_var($_POST['name'], FILTER_SANITIZE_STRING);
+		$emailSani = filter_var($_POST['email'], FILTER_SANITIZE_EMAIL);
+		$messageSani = filter_var($_POST['message'], FILTER_SANITIZE_STRING);
+
+		$message ='
+<html>
+<head>
+  <title>Petercam Contact</title>
+</head>
+<body>
+  <p></p>
+  <table>
+    <tr>
+      <th>.From : </th><th>'.$nameSani.'</th>
+    </tr>
+    <tr>
+    	<th>Message : </th> <th>' .$messageSani .'</th>
+	</tr>
+  </table>
+</body>
+</html>
+';
+		mail('foundation@degroofpetercam.com', 'Contact venant du site', $message);
+	} else {
+		$msgErreur = "<p>* Veuillez remplir tous les champs</p>";
+	}
+}
+?>
 
 
 <!DOCTYPE HTML>
@@ -221,21 +253,12 @@
 												<div class="12u">
 													<ul class="actions">
 														<li><input type="submit" name="submit" class="style1" value="Send" /></li>
-														<li><input type="reset" class="style2" value="Reset" /></li>
 													</ul>
+												<?php if(isset($msgErreur)) { echo $msgErreur; }; ?>
 												</div>
 											</div>
 										</form>
 									</section>
-<?php
-if(isset($_POST)) {
-	if(!empty($_POST['name']) && !empty($_POST['email']) && !empty($_POST['message'])) {
-
-	} else {
-		$msgErreur = 'Veuillez remplir tous les champs';
-	}
-}
-?>
 							</div>
 							<div class="6u 12u(mobile)">
 
