@@ -1291,7 +1291,7 @@
 		}
 
 		header.style1 p {
-			color: #b1b4b9;
+			color: #33dba7;
 		}
 
 /* Image */
@@ -1368,7 +1368,7 @@
 		input[type="reset"].style1,
 		button.style1,
 		.button.style1 {
-			background: #e97770 url("images/overlay.png");
+			background: #33dba7 url("images/overlay.png");
 			color: #fff;
 		}
 
@@ -1486,7 +1486,7 @@
 /* Feature List */
 
 	.feature-list h3 {
-		color: #e97770 !important;
+		color: #33dba7 !important;
 	}
 
 		.feature-list h3:before {
@@ -1562,13 +1562,13 @@
 			}
 
 		.wrapper.style1 {
-			background: #e97770 url("images/overlay.png");
+			background: #33dba7 url("images/overlay.png");
 			color: #eee;
 			color: rgba(255, 255, 255, 0.75);
 		}
 
 			.wrapper.style1 .title {
-				background: #e97770 url("images/overlay.png");
+				background: #33dba7 url("images/overlay.png");
 				color: #fff;
 			}
 
@@ -1736,7 +1736,7 @@
 	}
 
 		#highlights .highlight h3 {
-			color: #e97770;
+			color: #33dba7;
 		}
 
 /* Copyright */
