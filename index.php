@@ -1,3 +1,40 @@
+<<<<<<< HEAD
+=======
+<?php
+if(isset($_POST['submit'])) {
+	if(!empty($_POST['name']) && !empty($_POST['email']) && !empty($_POST['message'])) {
+
+		$nameSani = filter_var($_POST['name'], FILTER_SANITIZE_STRING);
+		$emailSani = filter_var($_POST['email'], FILTER_SANITIZE_EMAIL);
+		$messageSani = filter_var($_POST['message'], FILTER_SANITIZE_STRING);
+
+		$message ='
+<html>
+<head>
+  <title>Petercam Contact</title>
+</head>
+<body>
+  <p></p>
+  <table>
+    <tr>
+      <th>.From : </th><th>'.$nameSani.'</th>
+    </tr>
+    <tr>
+    	<th>Message : </th> <th>' .$messageSani .'</th>
+	</tr>
+  </table>
+</body>
+</html>
+';
+		mail('foundation@degroofpetercam.com', 'Contact venant du site', $message);
+	} else {
+		$msgErreur = "<p>* Veuillez remplir tous les champs</p>";
+	}
+}
+?>
+
+
+>>>>>>> Gab-Dev
 <!DOCTYPE HTML>
 <!--
 	Escape Velocity by HTML5 UP
@@ -60,6 +97,7 @@
 
 			<!-- Intro -->
 				<div id="intro-wrapper" class="wrapper style1">
+
 					<div class="title">MISSION</div>
 					<section id="intro" class="container">
 						<p class="style1">We believe in <strong>sustainable growth</strong> in an European economy where no one should be left behind. We act towards this by investing in the best solutions for <strong>job creation</strong> and access to work, from <strong>cradle to career.</strong></p>
@@ -79,7 +117,7 @@
 						</ul>
 						<!--</p>-->
 					
-						
+
 					</section>
 				</div>
 
@@ -193,14 +231,46 @@
 
 			<!-- Footer -->
 				<div id="footer-wrapper" class="wrapper">
-					<div class="title">The Rest Of It</div>
+
+					<div class="title">Contact</div>
 					<div id="footer" class="container">
 						<header class="style1">
-							<h2>Ipsum sapien elementum portitor?</h2>
-							<p>
-								Sed turpis tortor, tincidunt sed ornare in metus porttitor mollis nunc in aliquet.<br />
-								Nam pharetra laoreet imperdiet volutpat etiam consequat feugiat.
-							</p>
+							<h2>The team</h2>
+							<div class="row 100%">
+								<div class="3u 12u(mobile)">
+									<section class="highlight">
+										<a href="#" class="image featured img_contact "><img  src="images/silvia.jpg" alt="" height='215px' /></a>
+										<h3><a href="#">Silvia Steisel</a></h3>
+										
+
+									</section>
+								</div>
+									<div class="3u 12u(mobile)">
+									<section class="highlight">
+										<a href="#" class="image featured img_contact"><img  src="images/patti.jpg" alt="" height='215px' /></a>
+										<h3><a href="#">Patti Walraf</a></h3>
+										
+										
+									</section>
+								</div>
+								<div class="3u 12u(mobile)">
+									<section class="highlight">
+										<a href="#" class="image featured img_contact"><img  src="images/Alizée.png" alt="" height='215px'/></a>
+										<h3><a href="#">Alizée du Bus</a></h3>
+										
+										
+									</section>
+								</div>
+								<div class="3u 12u(mobile)">
+									<section class="highlight">
+										<a href="#" class="image featured img_contact"><img  src="images/minke.jpg" alt="" height='215px'/></a>
+										<h3><a href="#">Minke de Smet</a></h3>
+										
+										
+									</section>
+								</div>
+							</div>
+
 						</header>
 						<hr />
 						<div class="row 150%">
@@ -225,13 +295,16 @@
 											<div class="row">
 												<div class="12u">
 													<ul class="actions">
-														<li><input type="submit" class="style1" value="Send" /></li>
-														<li><input type="reset" class="style2" value="Reset" /></li>
+
+														<li><input type="submit" name="submit" class="style1" value="Send" /></li>
 													</ul>
+												<?php if(isset($msgErreur)) { echo $msgErreur; }; ?>
+
 												</div>
 											</div>
 										</form>
 									</section>
+
 
 							</div>
 							<div class="6u 12u(mobile)">
@@ -239,23 +312,14 @@
 								<!-- Contact -->
 									<section class="feature-list small">
 										<div class="row">
-											<div class="6u 12u(mobile)">
-												<section>
-													<h3 class="icon fa-home">Mailing Address</h3>
-													<p>
-														Untitled Corporation<br />
-														1234 Somewhere Rd #987<br />
-														Nashville, TN 00000-0000
-													</p>
-												</section>
-											</div>
+
 											<div class="6u 12u(mobile)">
 												<section>
 													<h3 class="icon fa-comment">Social</h3>
 													<p>
-														<a href="#">@untitled-corp</a><br />
-														<a href="#">linkedin.com/untitled</a><br />
-														<a href="#">facebook.com/untitled</a>
+
+														<a href="#">facebook.com</a><br />
+														<a href="#">linkedin.com</a><br />
 													</p>
 												</section>
 											</div>
@@ -265,19 +329,11 @@
 												<section>
 													<h3 class="icon fa-envelope">Email</h3>
 													<p>
-														<a href="#">info@untitled.tld</a>
+														<a href="#">foundation@degroofpetercam.com </a>
 													</p>
 												</section>
 											</div>
-											<div class="6u 12u(mobile)">
-												<section>
-													<h3 class="icon fa-phone">Phone</h3>
-													<p>
-														(000) 555-0000
-													</p>
-												</section>
-											</div>
-										</div>
+
 									</section>
 
 							</div>
@@ -305,3 +361,4 @@
 
 	</body>
 </html>
+
