@@ -61,34 +61,7 @@ if(isset($_POST['submit'])) {
 We also seek to promote engagement within Bank Degroof Petercam. </p>
 							</div>
 
-						<!-- Nav -->
-							<nav id="nav">
-								<ul>
-									<li class="current"><a href="index.html">Home</a></li>
-									<li>
-										<a href="#">Dropdown</a>
-										<ul>
-											<li><a href="#">Lorem ipsum</a></li>
-											<li><a href="#">Magna veroeros</a></li>
-											<li><a href="#">Etiam nisl</a></li>
-											<li>
-												<a href="#">Sed consequat</a>
-												<ul>
-													<li><a href="#">Lorem dolor</a></li>
-													<li><a href="#">Amet consequat</a></li>
-													<li><a href="#">Magna phasellus</a></li>
-													<li><a href="#">Etiam nisl</a></li>
-													<li><a href="#">Sed feugiat</a></li>
-												</ul>
-											</li>
-											<li><a href="#">Nisl tempus</a></li>
-										</ul>
-									</li>
-									<li><a href="left-sidebar.html">Left Sidebar</a></li>
-									<li><a href="right-sidebar.html">Right Sidebar</a></li>
-									<li><a href="no-sidebar.html">No Sidebar</a></li>
-								</ul>
-							</nav>
+<?php include 'header.php'; ?>
 
 					</div>
 				</div>
@@ -96,7 +69,7 @@ We also seek to promote engagement within Bank Degroof Petercam. </p>
 			<!-- Intro -->
 				<div id="intro-wrapper" class="wrapper style1">
 
-					<div class="title">MISSION</div>
+					<div class="title" id="Mission">MISSION</div>
 					<section id="intro" class="container">
 						<p class="style1">We believe in <strong>sustainable growth</strong> in an European economy where no one should be left behind. We act towards this by investing in the best solutions for <strong>job creation</strong> and access to work, from <strong>cradle to career.</strong></p>
 						<p class="style1">The 3 pillars of Degroof Petercam Foundation: </p>
@@ -122,70 +95,19 @@ We also seek to promote engagement within Bank Degroof Petercam. </p>
 
 			<!-- Main -->
 				<div class="wrapper style2">
-					<div class="title">The Details</div>
-					<div id="main" class="container">
-
-						<!-- Image -->
-							<a href="#" class="image featured">
-								<img src="images/pic01.jpg" alt="" />
-							</a>
-
-						<!-- Features -->
-							<section id="features">
-								<header class="style1">
-									<h2>Dolor consequat feugiat amet veroeros</h2>
-									<p>Feugiat dolor nullam orci pretium phasellus justo</p>
-								</header>
-								<div class="feature-list">
-									<div class="row">
-										<div class="6u 12u(mobile)">
-											<section>
-												<h3 class="icon fa-comment">Mattis velit diam vulputate</h3>
-												<p>Eget mattis at, laoreet vel et velit aliquam diam ante, aliquet sit amet vulputate. Eget mattis at, laoreet vel velit lorem.</p>
-											</section>
-										</div>
-										<div class="6u 12u(mobile)">
-											<section>
-												<h3 class="icon fa-refresh">Lorem ipsum dolor sit veroeros</h3>
-												<p>Eget mattis at, laoreet vel et velit aliquam diam ante, aliquet sit amet vulputate. Eget mattis at, laoreet vel velit lorem.</p>
-											</section>
-										</div>
-									</div>
-									<div class="row">
-										<div class="6u 12u(mobile)">
-											<section>
-												<h3 class="icon fa-picture-o">Pretium phasellus justo lorem</h3>
-												<p>Eget mattis at, laoreet vel et velit aliquam diam ante, aliquet sit amet vulputate. Eget mattis at, laoreet vel velit lorem.</p>
-											</section>
-										</div>
-										<div class="6u 12u(mobile)">
-											<section>
-												<h3 class="icon fa-cog">Tempus sed pretium orci</h3>
-												<p>Eget mattis at, laoreet vel et velit aliquam diam ante, aliquet sit amet vulputate. Eget mattis at, laoreet vel velit lorem.</p>
-											</section>
-										</div>
-									</div>
-									<div class="row">
-										<div class="6u 12u(mobile)">
-											<section>
-												<h3 class="icon fa-wrench">Aliquam consequat et feugiat</h3>
-												<p>Eget mattis at, laoreet vel et velit aliquam diam ante, aliquet sit amet vulputate. Eget mattis at, laoreet vel velit lorem.</p>
-											</section>
-										</div>
-										<div class="6u 12u(mobile)">
-											<section>
-												<h3 class="icon fa-check">Dolore laoreet aliquam mattis</h3>
-												<p>Eget mattis at, laoreet vel et velit aliquam diam ante, aliquet sit amet vulputate. Eget mattis at, laoreet vel velit lorem.</p>
-											</section>
-										</div>
-									</div>
-								</div>
-								<ul class="actions actions-centered">
-									<li><a href="#" class="button style1 big">Get Started</a></li>
-									<li><a href="#" class="button style2 big">More Info</a></li>
-								</ul>
+					<div id='Challenge' class="title">CHALLENGE</div>
+					<div id="main" class="container challenge">
+							<p class="style1">Every year, the Foundation offers a 1M€ grant and a 5 year core support to boost and scale the project with the best solution for employment.</p>
+							<p class="style1">The thematic is rotating every 3 years:</p>
+							<ul class="style1">
+								<li class="style1"> Inspiration and entrepreneurial skills for the youth</li>
+								<li class="style1"> Support to entrepreneurship</li>
+								<li class="style1"> Job accessibility for underprivileged profiles</li>
+							</ul>
+							<p class="style1">Do you want to apply ? Check the <a href=""><strong>eligibility</strong></a> and <a href=""><strong>evaluation</strong></a> criteria before applying. </p>
+							<ul class="style1">
 							</section>
-
+						</div>
 					</div>
 				</div>
 
@@ -231,7 +153,7 @@ We also seek to promote engagement within Bank Degroof Petercam. </p>
 			<!-- Footer -->
 				<div id="footer-wrapper" class="wrapper">
 
-					<div class="title">Contact</div>
+					<div class="title" id="Contact">CONTACT</div>
 					<div id="footer" class="container">
 						<header class="style1">
 							<h2>The team</h2>
